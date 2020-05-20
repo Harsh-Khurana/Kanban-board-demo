@@ -1,0 +1,51 @@
+/* Styles for main App page */
+.App{
+	display: flex;
+	min-height: 100vh;
+	flex-wrap: wrap;
+	background-image:linear-gradient(to bottom right,#C33764,#1D2671);
+}
+
+/* Styles for Events and elements inside it */
+.header{
+	width: 90%;
+	text-align: center;
+	padding:0.4rem 1rem;
+	margin:0;
+	margin-bottom: 1rem;
+	background-image:linear-gradient(to bottom right,#C33764,#1D2671);
+	color:white;
+	font-size: 1.3rem;
+	font-weight: 600;
+
+}
+
+input{
+	min-width: 95%;
+	font-size: 1rem;
+	text-align:center;
+	margin-left:3px;
+}
+
+.Event{
+	width: 20rem;
+	overflow:hidden;
+	margin:4rem auto;
+	box-shadow: 0 0.5rem 1.4rem black;
+	border-radius: 5px;
+	background-color: white;
+}
+
+/* Whole card styles*/
+.card{
+	text-align:center;
+	margin:1rem;
+	border:1px solid black;
+	padding:1rem;
+	transition:transform .2s;
+	border-radius: 5px;
+}
+
+.card:hover{
+	transform: scale(1.05);
+}
